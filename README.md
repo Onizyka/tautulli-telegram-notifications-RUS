@@ -1,5 +1,5 @@
 Заходим в настройки (Settings)
-Далее Notification Agents
+<b>Далее Notification Agents</b>
 Заходим в ранее соданный агент Telegram (в моейм случае телеграмм)
 Открывает TEXT
 Находим и открываем recently Added
