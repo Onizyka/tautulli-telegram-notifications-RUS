@@ -1,0 +1,71 @@
+##Subject Line##
+<b>Пополнение:</b> <i>{title} ({year}) - {content_rating}</i>
+##Message Body##
+<movie>
+🏢  <b>Студия:</b> <i>{studio}</i>
+👷🏻  <b>Директор:</b> <i>{directors}</i>
+👫  <b>Актеры:</b> <i>{actors:[1:5]}</i>
+🕓  <b>Продолжительность:</b> <i>{duration} минут</i>
+🎭  <b>Жанр:</b> <i>{genres}</i>
+⚙️  <b>Качество и размер:</b><i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+<b>Описание:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+</movie>
+🔗  <b>Лежит в папке:</b> <a href="{plex_url}">{library_name}</a>
+
+<episode>
+<b>ДОБАВЛЕНА НОВАЯ ГЛАВА</b>
+📺  <b>Название серии:</b> <i>{show_name} ({year})</i>
+🔢  <b>Сезон:</b> <i>{season_num}x{episode_num00} - "{episode_name}"</i>
+🕓  <b>Продолжительность:</b> <i>{duration} минут</i>
+🎭  <b>Жанр:</b> <i>{genres}</i>
+⚙️  <b>Качество:</b> <i>{video_width}x{video_height} - {video_resolution}p  
+({file_size})</i>
+<b>Описание:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+🔗  <b>Рейтинг в TheTVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Лежит в папке:</b> <a href="{plex_url}">{library_name}</a>
+</episode>
+
+<show>
+<b>Добавлена новая серия</b> 
+📺  <b>Название серии:</b> <i>{show_name} ({year})</i>
+🏢  <b>Эпизод:</b> <i>{studio}</i>
+👷🏻  <b>Директор:</b> <i>{directors}</i>
+👫  <b>Актеры:</b> <i>{actors:[1:5]}</i>
+🎭  <b>Жанр:</b> <i>{genres}</i>
+<b>Описание:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+🔗  <b>Рейтинг в TheTVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Лежит в папке:</b> <a href="{plex_url}">{library_name}</a>
+</show>
+
+<season>
+<b>Добавлен новый сезон</b> 
+📺  <b>Название серии:</b> <i>{show_name} ({year})</i>
+📺  <b>Сезон:</b> <i>{season_num}</i>
+🏢  <b>Студия:</b> <i>{studio}</i>
+👷🏻  <b>Директор:</b> <i>{directors}</i>
+👫  <b>Актеры:</b> <i>{actors:[1:5]}</i>
+🎭  <b>Жанр:</b> <i>{genres}</i>
+⚙️  <b>Качество:</b> <i>{video_width}x{video_height} - {video_resolution}p  ({file_size})</i>
+<b>Описание:</b>
+<b>★ {rating} | </b><i>{summary}</i>
+<a href="{poster_url}">&nbsp;</a>
+🔗  <b>Рейтинг в TheTVDB:</b> <a href="{thetvdb_url}">{thetvdb_url}</a>
+🔗  <b>Лежит в папке:</b> <a href="{plex_url}">{library_name}</a>
+</season>
+
+<album>
+<b>Добавлен новый альбом</b>
+🎤  <b>Группа:</b> <i>{artist_name}</i>
+🎹  <b>Альбом:</b> <i>{album_name}</i>
+🎼  <b>Песни:</b> <i>{track_count}</i>
+📅  <b>Год:</b> {year} | <i>{rating}</i>
+🎭  <b>Жанр:</b> <i>{genres}</i>
+🔗  <b>Лежит в папке:</b> <a href="{plex_url}">{library_name}</a>
+<a href="{poster_url}">&nbsp;</a>
+</album>
